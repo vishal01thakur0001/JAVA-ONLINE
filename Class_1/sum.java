@@ -1,4 +1,4 @@
-package basic;
+package Class_1;
 
 public class sum {
     public static void main(String[] args) {
