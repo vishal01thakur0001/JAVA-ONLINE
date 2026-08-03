@@ -1,3 +1,5 @@
+package Class_1;
+
 public class minmum {
     public static void main(String[] args) {
         int[] numbers = {20 , 69 , 5 , 4 , 2};

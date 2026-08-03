@@ -1,3 +1,4 @@
+package Class_1;
 public class MaxIndex {
     public static void main(String[] args) {
         int[] numbers = {23, 67, 12, 89, 45};

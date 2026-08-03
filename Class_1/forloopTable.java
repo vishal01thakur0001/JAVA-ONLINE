@@ -1,3 +1,4 @@
+package Class_1;
 public class forloopTable {
     public static void main(String[] args) {
        int n = 4;

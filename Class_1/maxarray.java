@@ -1,3 +1,4 @@
+package Class_1;
 public class maxarray {
     public static void main(String[] args) {
         int[] numbers = {120 , 56 , 89, 250, 60};
