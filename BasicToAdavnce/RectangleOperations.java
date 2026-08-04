@@ -1,4 +1,3 @@
-package BasicToAdavnce;
 import java.util.Scanner;
 public class RectangleOperations {
     public static void main(String[] args) {

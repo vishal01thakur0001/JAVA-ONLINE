@@ -1,5 +1,3 @@
-package BasicToAdavnce;
-
 import java.util.Scanner;
 
 public class ArithmeticOperations {

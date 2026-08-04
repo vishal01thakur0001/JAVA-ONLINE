@@ -1,5 +1,3 @@
-package BasicToAdavnce;
-
 import java.util.Scanner;
 
 public class SwapNumbers {
@@ -13,7 +11,7 @@ public class SwapNumbers {
 
        int temp = a;
        a = b;
-       b = temp;;
+       b = temp;
 
        System.out.println("After Swaping :");
        System.out.println("First number : " + a);
