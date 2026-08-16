@@ -5,8 +5,8 @@ public class CountDigits {
         System.out.print("Enter the Number : ");
         int n = sc.nextInt();
         int count = 0;
-        for(int i = 0; n > 0 ;i++ ){
-             count++; 
+        while (n > 0) {
+            count++;
             n = n / 10;
         }
          System.out.print(count);
