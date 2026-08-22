@@ -6,7 +6,7 @@ public class CircleOperations {
         System.out.print("ENTER RADIUS :");
         int Radius = sc.nextInt();
 
-        System.out.println("Radius :" + (Math.PI*Radius*Radius));
+        System.out.println("AREA :" + (Math.PI*Radius*Radius));
         System.out.println("Circumference :" + (2 * Math.PI *Radius));
 
         sc.close();
