@@ -11,5 +11,17 @@ public class SecondLargest {
         for(int i = 0; i < n;i++){
             arr[i] = sc.nextInt();
         }
+        int Largest = Integer.MIN_VALUE;
+        int SecondLargest = Integer.MIN_VALUE;
+
+        for(int i = 0; i < n; i++){
+            if(arr[i] > Largest){
+               SecondLargest = Largest;
+            }else if(arr[i] > SecondLargest && arr[i] != Largest) {
+                SecondLargest = arr[i];
+            }
+        }
+        System.out.println("Second Largest elements : " + SecondLargest);
+        sc.close();
     }
 }
