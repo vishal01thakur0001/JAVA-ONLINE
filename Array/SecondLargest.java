@@ -21,7 +21,6 @@ public class SecondLargest {
                 SecondLargest = arr[i];
             }
         }
-        System.out.println("Second Largest elements : " + SecondLargest);
-        sc.close();
+        
     }
 }
