@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Frequency {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of Array : ");
+        System.out.print("Enter the size of Array : ");
         int n = sc.nextInt();
 
         int[] arr = new int[n];
         boolean[] visited = new boolean[n];
-        System.out.println("Enter the elements : ");
+        System.out.print("Enter the elements : ");
         for(int i = 0; i < n; i++){
         arr[i] = sc.nextInt();
         }
@@ -24,6 +24,8 @@ public class Frequency {
                     visited[i] = true;
                 }
              }
+             System.out.println(arr[i] + " --> " + count);
+             sc.close();
         }
 
     }
