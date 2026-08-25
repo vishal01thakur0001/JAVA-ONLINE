@@ -15,5 +15,25 @@ public class RemoveDuplicates {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+ System.out.println("Array after removing duplicates:");
 
+        for (int i = 0; i < n; i++) {
+
+            boolean duplicate = false;
+
+            // Check if arr[i] appeared before
+            for (int j = 0; j < i; j++) {
+                if (arr[i] == arr[j]) {
+                    duplicate = true;
+                    break;
+                }
+            }
+
+            // Print only if it is not duplicate
+            if (!duplicate) {
+                System.out.print(arr[i] + " ");
+            }
+        }
+    }
+}
        
